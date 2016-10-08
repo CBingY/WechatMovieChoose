@@ -1,0 +1,14 @@
+<!--index.wxml-->
+<view class="container">
+  <!--<view  bindtap="bindViewTap" class="userinfo">-->
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">好无聊好无聊，来场电影吧~</text>
+  <!--</view>-->
+  <!--<view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>-->
+  <view class="tabr">
+  <btn bindtap="startChoose" class="choose-btn">去电影院</btn>
+  <btn bindtap="startChooseAtHome" class="choose-btn">在家看</btn>
+  </view>
+</view>
